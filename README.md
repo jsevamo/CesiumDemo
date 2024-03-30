@@ -3,7 +3,7 @@
 Welcome to my Cesium.js Test Project. I appreciate the time you are taking to take a look at the project!
 
 # How to run the Project:
-You can either go here: https://github.com/jsevamo/CesiumDemo
+You can either go here: https://jsevamo.github.io/CesiumDemo/
 or use the "CesiumTestApp.zip" and run a local build.
 
 ## What you will find in this Demo
