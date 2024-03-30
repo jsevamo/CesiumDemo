@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+    <title>CesiumJS: Cool Demo</title>
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.107/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.107/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <script src="https://unpkg.com/@esri/arcgis-rest-request@4.0.0/dist/bundled/request.umd.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-geocoding@4.0.0/dist/bundled/geocoding.umd.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+
+  <select id="places-select">
+    <option value="">Choose a place type...</option>
+    <option value="Coffee shop" selected>Coffee shops</option>
+    <option value="Gas station">Gas stations</option>
+    <option value="Food">Food</option>
+    <option value="Hotel">Hotels</option>
+    <option value="Parks and Outdoors">Parks and Outdoors</option>
+  </select>
+
+  <button id="switch-to-google">Switch to Google 3D Tiles</button>
+  <button id="switch-to-arcgis">Switch to ArcGIS Data - 3D New York </button>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
