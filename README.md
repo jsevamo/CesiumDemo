@@ -16,8 +16,8 @@ I made sure this demo properly showcases that curated datasets, outside customer
    You can click on them to get more information provided by the API.
 4. Use the dropdown menu to query for other type of labels, like hotels or parks.
 5. I found the Photorealistic Google 3D Tileset under a curated dataset inside Cesium ion. This renders the whole globe just like an instance of Google maps would. 
-   You can use the "Switch to Google 3D Tiles" button to load a viewer on the fly that will switch to the Google 3D tileset.
-6. Use the "Switch to ArcGIS Data - 3D New York" button to go back to the ArcGIS viewer. You can toggle back and forth. While I'm aware I could have used just one 
+   You can use the "Switch to Google 3D Tiles" button to load a simple viewer on the fly with no labels that will switch to the Google 3D tileset.
+6. Use the "Switch to ArcGIS Data - 3D New York" button to go back to the ArcGIS viewer with data labels. You can toggle back and forth. While I'm aware I could have used just one 
    viewer to display the data, I figured I'd add this small switching feature just for fun :)
 
 ## Steps to Run the Project Locally
